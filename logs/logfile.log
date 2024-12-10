@@ -1,0 +1,504 @@
+2024-12-10 12:46:05,259 [INFO] src.utils.load_logging: Loading data...
+2024-12-10 12:46:19,726 [INFO] src.utils.load_logging: Dataframe has been cleaned
+2024-12-10 12:46:19,727 [INFO] src.utils.load_logging: Dataframe has been cleaned
+2024-12-10 12:46:19,727 [INFO] src.utils.load_logging: Dataframe has been cleaned
+2024-12-10 12:46:19,728 [INFO] src.utils.load_logging: Dataframe has been cleaned
+2024-12-10 12:46:19,728 [INFO] src.utils.load_logging: Dataframe has been cleaned
+2024-12-10 12:46:51,403 [INFO] src.utils.load_logging: Adjusted to ratios:     gross_margin  operating_margin  net_margin  ebitda_margin  opex_ratio  \
+0       0.462063          0.315102    0.239713       0.344371    0.146961   
+5       0.445887          0.301306    0.255686       0.331671    0.144581   
+10      0.436340          0.305156    0.254992       0.333526    0.131184   
+15      0.420836          0.299993    0.260703       0.331064    0.120844   
+20      0.386376          0.244027    0.211348       0.284728    0.142349   
+25      0.383448          0.249145    0.215341       0.298042    0.134303   
+30      0.383437          0.266940    0.224142       0.307991    0.116497   
+35      0.384699          0.267604    0.210924       0.294948    0.117094   
+40      0.390760          0.278354    0.211868       0.329848    0.112405   
+45      0.401859          0.305732    0.229177       0.353881    0.096128   
+50      0.386693          0.287828    0.216599       0.333132    0.098865   
+55      0.376544          0.286923    0.216877       0.328452    0.089621   
+60      0.438712          0.352960    0.266651       0.372907    0.085753   
+65      0.404789          0.312151    0.239466       0.330765    0.092638   
+70      0.393775          0.281870    0.214841       0.294366    0.111905   
+75      0.401398          0.273628    0.191936       0.287752    0.127771   
+
+    rd_to_revenue  sga_to_revenue  effective_tax_rate  interest_coverage  \
+0        0.080223        0.066738            0.240912                NaN   
+5        0.078858        0.065723            0.147192           0.299184   
+10       0.067070        0.064114            0.162045           0.416356   
+15       0.060341        0.060503            0.133023           0.422881   
+20       0.069032        0.073317            0.144282           0.243522   
+25       0.063200        0.071103            0.159438           0.193828   
+30       0.053600        0.062897            0.183422           0.235009   
+35       0.050520        0.066574            0.245565           0.285889   
+40       0.046582        0.065823            0.255573           0.431511   
+45       0.034625        0.061503            0.263683           0.999291   
+50       0.033118        0.065747            0.261261           1.402786   
+55       0.026204        0.063417            0.261549           3.697868   
+60       0.021603        0.064150            0.251601                NaN   
+65       0.022439        0.070199            0.242158                NaN   
+70       0.027321        0.084584            0.244175           1.186129   
+75       0.031069        0.096702            0.317504           0.360123   
+
+    revenue_growth  net_income_growth  ebitda_growth  
+0         0.030797          -0.033600       0.070267  
+5        -0.030774          -0.028135      -0.036165  
+10        0.077718           0.054109       0.085734  
+15        0.336951           0.649161       0.554523  
+20        0.058629           0.039000       0.011337  
+25       -0.033875          -0.071811      -0.065085  
+30        0.158620           0.231226       0.209859  
+35        0.063045           0.058310      -0.049432  
+40       -0.074439          -0.144342      -0.137299  
+45        0.277237           0.351405       0.356789  
+50        0.068143           0.066771       0.083365  
+55        0.091152          -0.112525      -0.038929  
+60        0.445815           0.609945       0.630024  
+65        0.659624           0.849854       0.864844  
+70        0.520219           0.701639       0.555160  
+75             NaN                NaN            NaN  
+2024-12-10 12:46:51,404 [INFO] src.utils.load_logging: Dataframe has been cleaned
+2024-12-10 12:46:51,407 [INFO] src.utils.load_logging: Adjusted to ratios:      gross_margin  operating_margin  net_margin  ebitda_margin  opex_ratio  \
+85       0.321580          0.064464    0.053221       0.082763    0.148674   
+90       0.272244          0.023956   -0.005324       0.006126    0.165963   
+95       0.271238          0.053165    0.071297       0.107651    0.148915   
+100      0.266769          0.059563    0.055484       0.090649    0.130016   
+105      0.242472          0.052137    0.041549       0.094108    0.168306   
+110      0.282288          0.053709    0.043556       0.056913    0.121069   
+115      0.288957          0.023163    0.017110       0.028297    0.084331   
+120      0.234220          0.030878    0.017490       0.091255    0.119249   
+125      0.214921          0.021000    0.005605       0.077926    0.115563   
+130      0.184145          0.002007   -0.002718       0.055052    0.112269   
+135      0.178695          0.010037    0.003691       0.051585    0.097148   
+140      0.162492          0.011095   -0.000640       0.043331    0.087089   
+145      0.159428          0.017922    0.013119       0.043038    0.069859   
+150      0.164472          0.041235    0.033786       0.061912    0.057688   
+155      0.225949          0.046121    0.036848       0.064014    0.179828   
+
+     rd_to_revenue  sga_to_revenue  effective_tax_rate  interest_coverage  \
+85        0.149776        0.133794            0.189207           0.127929   
+90        0.143197        0.146162            0.541674          -0.015091   
+95        0.119780        0.124528            0.125567           0.220918   
+100       0.111171        0.102941            0.118335           0.156897   
+105       0.128830        0.125783            0.171576           0.097425   
+110       0.124693        0.113939            0.106211           0.089534   
+115       0.127606        0.077528            0.202262           0.054835   
+120       0.118652        0.054822            0.371254           0.087913   
+125       0.117933        0.052167            0.614489           0.043682   
+130       0.104590        0.054714           -2.256757           0.006476   
+135       0.088445        0.047543            0.370115           0.040851   
+140       0.074911        0.047533            1.100257           0.052283   
+145       0.060482        0.042789            0.315618           0.151846   
+150       0.050855        0.039886            0.234043           0.395641   
+155       0.050656        0.041178            0.219048           0.349706   
+
+     revenue_growth  net_income_growth  ebitda_growth  
+85         0.118120         -12.177443      14.106322  
+90         0.092568          -1.081585      -0.937828  
+95         0.217208           0.564109       0.445509  
+100        0.378448           0.840784       0.327771  
+105        0.205990           0.150402       0.994150  
+110        0.304623           2.321134       1.624003  
+115        0.307602           0.279207      -0.594536  
+120        0.274922           2.978188       0.493000  
+125        0.199053          -3.473029       0.697255  
+130        0.194714          -1.879562       0.275007  
+135        0.218314          -8.025641       0.450379  
+140        0.266732          -1.061807       0.275362  
+145        0.410593          -0.452257      -0.019422  
+150        0.392908           0.277162       0.347160  
+155             NaN                NaN            NaN  
+2024-12-10 12:46:51,407 [INFO] src.utils.load_logging: Dataframe has been cleaned
+2024-12-10 12:46:51,409 [INFO] src.utils.load_logging: Adjusted to ratios:      gross_margin  operating_margin  net_margin  ebitda_margin  opex_ratio  \
+166      0.563646          0.275865    0.241508       0.320629    0.306658   
+171      0.551324          0.266077    0.213212       0.324706    0.290782   
+176      0.569398          0.305523    0.295117       0.401810    0.263875   
+181      0.535784          0.225852    0.220619       0.339205    0.309932   
+186      0.555805          0.211489    0.212181       0.305245    0.333832   
+191      0.564761          0.201171    0.224647       0.332542    0.335319   
+196      0.588805          0.236146    0.114221       0.347598    0.328267   
+201      0.610754          0.262717    0.215770       0.330778    0.348037   
+206      0.624425          0.258171    0.218005       0.325688    0.366254   
+
+     rd_to_revenue  sga_to_revenue  effective_tax_rate  interest_coverage  \
+166       0.148669        0.145118            0.139086           2.793019   
+171       0.140430        0.150352            0.159208           2.007983   
+176       0.122506        0.141369            0.162023           2.632370   
+181       0.151063        0.158870            0.162493           3.571630   
+186       0.160747        0.173085            0.133300           3.972500   
+191       0.156550        0.178769            0.119640           3.072544   
+196       0.149971        0.178296            0.534365           2.504771   
+201       0.154511        0.193526            0.193458           1.957581   
+206       0.163784        0.202470            0.168083           1.899519   
+
+     revenue_growth  net_income_growth  ebitda_growth  
+166        0.086320           0.230491       0.072679  
+171        0.091765          -0.211237      -0.117735  
+176        0.411501           0.888127       0.672013  
+181        0.127705           0.172553       0.253168  
+186        0.183001           0.117354       0.085894  
+191        0.234216           1.427421       0.180754  
+196        0.228011          -0.349933       0.290455  
+201        0.203803           0.191461       0.222618  
+206             NaN                NaN            NaN  
+2024-12-10 12:46:51,410 [INFO] src.utils.load_logging: Dataframe has been cleaned
+2024-12-10 12:46:51,412 [INFO] src.utils.load_logging: Adjusted to ratios:      gross_margin  operating_margin  net_margin  ebitda_margin  opex_ratio  \
+217      0.696325          0.422047    0.344992       0.453551    0.292643   
+222      0.691554          0.425187    0.370906       0.452600    0.281563   
+227      0.698197          0.421343    0.369245       0.457821    0.292046   
+232      0.689928          0.376924    0.315161       0.411650    0.329886   
+237      0.671549          0.347860    0.317746       0.390898    0.339074   
+242      0.671569          0.326966    0.154549       0.386180    0.365121   
+247      0.645225          0.300556    0.263941       0.350240    0.363080   
+252      0.640389          0.286087    0.225322       0.305637    0.365941   
+257      0.646954          0.194069    0.130295       0.220004    0.452885   
+262      0.688160          0.319683    0.254212       0.336992    0.368477   
+267      0.738147          0.343794    0.280839       0.362497    0.394353   
+272      0.762218          0.295200    0.230294       0.314759    0.467018   
+277      0.777290          0.388330    0.330984       0.413236    0.388960   
+282      0.801629          0.385667    0.300237       0.414042    0.431935   
+
+     rd_to_revenue  sga_to_revenue  effective_tax_rate  interest_coverage  \
+217       0.129656        0.144622            0.189786           0.463816   
+222       0.124992        0.141375            0.131134           0.415797   
+227       0.124843        0.152010            0.138266           0.313078   
+232       0.137143        0.175861            0.165077           0.214693   
+237       0.136653        0.187036            0.101813           0.172651   
+242       0.137341        0.207262            0.545676           0.143458   
+247       0.134999        0.207309            0.147554           0.144568   
+252       0.131514        0.211291            0.198916           0.216267   
+257       0.128724        0.217183            0.341168           0.246965   
+262       0.131068        0.237606            0.206542           0.475997   
+267       0.133733        0.262367            0.191816           0.640583   
+272       0.133079        0.249936            0.237526           0.595974   
+277       0.129291        0.259669            0.175305           0.961559   
+282       0.139460        0.275559            0.249990           1.666490   
+
+     revenue_growth  net_income_growth  ebitda_growth  
+217        0.069543          -0.005183       0.071790  
+222        0.181835           0.187152       0.168358  
+227        0.181014           0.383686       0.313479  
+232        0.137722           0.128466       0.198119  
+237        0.151769           1.367992       0.165842  
+242        0.110292          -0.349876       0.224226  
+247        0.059427           0.241005       0.214034  
+252       -0.025924           0.684491       0.353215  
+257        0.077701          -0.447631      -0.296425  
+262        0.115403           0.009651       0.036924  
+267        0.055966           0.287725       0.216117  
+272        0.054044          -0.266609      -0.197142  
+277        0.119375           0.234009       0.117197  
+282             NaN                NaN            NaN  
+2024-12-10 12:46:51,412 [INFO] src.utils.load_logging: Dataframe has been cleaned
+2024-12-10 12:46:51,413 [INFO] src.utils.load_logging: Adjusted to ratios: Empty DataFrame
+Columns: [gross_margin, operating_margin, net_margin, ebitda_margin, opex_ratio, rd_to_revenue, sga_to_revenue, effective_tax_rate, interest_coverage, revenue_growth, net_income_growth, ebitda_growth]
+Index: []
+2024-12-10 12:46:51,413 [INFO] src.utils.load_logging: Dataframe has been cleaned
+2024-12-10 12:46:59,546 [INFO] src.utils.load_logging: Dataframe has been cleaned
+2024-12-10 12:46:59,547 [INFO] src.utils.load_logging: Dataframe has been cleaned
+2024-12-10 12:46:59,547 [INFO] src.utils.load_logging: Dataframe has been cleaned
+2024-12-10 12:46:59,548 [INFO] src.utils.load_logging: Dataframe has been cleaned
+2024-12-10 12:46:59,549 [INFO] src.utils.load_logging: Dataframe has been cleaned
+2024-12-10 12:47:41,708 [INFO] src.utils.load_logging: Dataframe has been cleaned
+2024-12-10 12:47:41,709 [INFO] src.utils.load_logging: Dataframe has been cleaned
+2024-12-10 12:47:41,709 [INFO] src.utils.load_logging: Dataframe has been cleaned
+2024-12-10 12:47:41,710 [INFO] src.utils.load_logging: Dataframe has been cleaned
+2024-12-10 12:47:41,711 [INFO] src.utils.load_logging: Dataframe has been cleaned
+2024-12-10 12:47:45,767 [INFO] src.utils.load_logging: Dataframe has been cleaned
+2024-12-10 12:47:45,768 [INFO] src.utils.load_logging: Dataframe has been cleaned
+2024-12-10 12:47:45,769 [INFO] src.utils.load_logging: Dataframe has been cleaned
+2024-12-10 12:47:45,769 [INFO] src.utils.load_logging: Dataframe has been cleaned
+2024-12-10 12:47:45,770 [INFO] src.utils.load_logging: Dataframe has been cleaned
+2024-12-10 12:49:16,876 [INFO] src.utils.load_logging: Dataframe has been cleaned
+2024-12-10 12:49:16,877 [INFO] src.utils.load_logging: Dataframe has been cleaned
+2024-12-10 12:49:16,878 [INFO] src.utils.load_logging: Dataframe has been cleaned
+2024-12-10 12:49:16,878 [INFO] src.utils.load_logging: Dataframe has been cleaned
+2024-12-10 12:49:16,879 [INFO] src.utils.load_logging: Dataframe has been cleaned
+2024-12-10 12:49:23,272 [INFO] src.utils.load_logging: Dataframe has been cleaned
+2024-12-10 12:49:23,273 [INFO] src.utils.load_logging: Dataframe has been cleaned
+2024-12-10 12:49:23,274 [INFO] src.utils.load_logging: Dataframe has been cleaned
+2024-12-10 12:49:23,275 [INFO] src.utils.load_logging: Dataframe has been cleaned
+2024-12-10 12:49:23,275 [INFO] src.utils.load_logging: Dataframe has been cleaned
+2024-12-10 12:52:03,536 [INFO] src.utils.load_logging: Loading data...
+2024-12-10 12:54:19,590 [INFO] src.utils.load_logging: Loading data...
+2024-12-10 12:55:17,178 [INFO] src.utils.load_logging: Dataframe has been set to index
+2024-12-10 12:55:17,179 [INFO] src.utils.load_logging: Dataframe has been cleaned
+2024-12-10 12:55:17,180 [INFO] src.utils.load_logging: Dataframe has been set to index
+2024-12-10 12:55:17,180 [INFO] src.utils.load_logging: Dataframe has been cleaned
+2024-12-10 12:55:17,181 [INFO] src.utils.load_logging: Dataframe has been set to index
+2024-12-10 12:55:17,181 [INFO] src.utils.load_logging: Dataframe has been cleaned
+2024-12-10 12:55:17,182 [INFO] src.utils.load_logging: Dataframe has been set to index
+2024-12-10 12:55:17,183 [INFO] src.utils.load_logging: Dataframe has been cleaned
+2024-12-10 12:55:17,183 [INFO] src.utils.load_logging: Dataframe has been set to index
+2024-12-10 12:55:17,184 [INFO] src.utils.load_logging: Dataframe has been cleaned
+2024-12-10 12:56:32,071 [INFO] src.utils.load_logging: Loading data...
+2024-12-10 12:56:41,434 [INFO] src.utils.load_logging: Loading data...
+2024-12-10 12:56:41,499 [INFO] src.utils.load_logging: Dataframe has been set to index
+2024-12-10 12:56:41,499 [INFO] src.utils.load_logging: Dataframe has been cleaned
+2024-12-10 12:56:41,500 [INFO] src.utils.load_logging: Dataframe has been set to index
+2024-12-10 12:56:41,500 [INFO] src.utils.load_logging: Dataframe has been cleaned
+2024-12-10 12:56:41,501 [INFO] src.utils.load_logging: Dataframe has been set to index
+2024-12-10 12:56:41,501 [INFO] src.utils.load_logging: Dataframe has been cleaned
+2024-12-10 12:56:41,502 [INFO] src.utils.load_logging: Dataframe has been set to index
+2024-12-10 12:56:41,502 [INFO] src.utils.load_logging: Dataframe has been cleaned
+2024-12-10 12:56:41,503 [INFO] src.utils.load_logging: Dataframe has been set to index
+2024-12-10 12:56:41,503 [INFO] src.utils.load_logging: Dataframe has been cleaned
+2024-12-10 12:57:17,079 [INFO] src.utils.load_logging: Loading data...
+2024-12-10 12:57:17,147 [INFO] src.utils.load_logging: Dataframe has been set to index
+2024-12-10 12:57:17,147 [INFO] src.utils.load_logging: Dataframe has been cleaned
+2024-12-10 12:57:17,148 [INFO] src.utils.load_logging: Dataframe has been set to index
+2024-12-10 12:57:17,149 [INFO] src.utils.load_logging: Dataframe has been cleaned
+2024-12-10 12:57:17,150 [INFO] src.utils.load_logging: Dataframe has been set to index
+2024-12-10 12:57:17,150 [INFO] src.utils.load_logging: Dataframe has been cleaned
+2024-12-10 12:57:17,151 [INFO] src.utils.load_logging: Dataframe has been set to index
+2024-12-10 12:57:17,152 [INFO] src.utils.load_logging: Dataframe has been cleaned
+2024-12-10 12:57:17,153 [INFO] src.utils.load_logging: Dataframe has been set to index
+2024-12-10 12:57:17,153 [INFO] src.utils.load_logging: Dataframe has been cleaned
+2024-12-10 12:57:49,694 [INFO] src.utils.load_logging: Dataframe has been set to index
+2024-12-10 12:57:49,695 [INFO] src.utils.load_logging: Dataframe has been cleaned
+2024-12-10 12:57:49,699 [INFO] src.utils.load_logging: Dataframe has been set to index
+2024-12-10 12:57:49,699 [INFO] src.utils.load_logging: Dataframe has been cleaned
+2024-12-10 12:57:49,702 [INFO] src.utils.load_logging: Dataframe has been set to index
+2024-12-10 12:57:49,703 [INFO] src.utils.load_logging: Dataframe has been cleaned
+2024-12-10 12:57:49,705 [INFO] src.utils.load_logging: Dataframe has been set to index
+2024-12-10 12:57:49,705 [INFO] src.utils.load_logging: Dataframe has been cleaned
+2024-12-10 12:57:49,707 [INFO] src.utils.load_logging: Dataframe has been set to index
+2024-12-10 12:57:49,707 [INFO] src.utils.load_logging: Dataframe has been cleaned
+2024-12-10 12:58:01,171 [INFO] src.utils.load_logging: Dataframe has been set to index
+2024-12-10 12:58:01,172 [INFO] src.utils.load_logging: Dataframe has been cleaned
+2024-12-10 12:58:01,176 [INFO] src.utils.load_logging: Dataframe has been set to index
+2024-12-10 12:58:01,176 [INFO] src.utils.load_logging: Dataframe has been cleaned
+2024-12-10 12:58:01,179 [INFO] src.utils.load_logging: Dataframe has been set to index
+2024-12-10 12:58:01,179 [INFO] src.utils.load_logging: Dataframe has been cleaned
+2024-12-10 12:58:01,183 [INFO] src.utils.load_logging: Dataframe has been set to index
+2024-12-10 12:58:01,183 [INFO] src.utils.load_logging: Dataframe has been cleaned
+2024-12-10 12:58:01,186 [INFO] src.utils.load_logging: Dataframe has been set to index
+2024-12-10 12:58:01,187 [INFO] src.utils.load_logging: Dataframe has been cleaned
+2024-12-10 12:58:15,522 [INFO] src.utils.load_logging: Dataframe has been set to index
+2024-12-10 12:58:15,523 [INFO] src.utils.load_logging: Dataframe has been cleaned
+2024-12-10 12:58:15,526 [INFO] src.utils.load_logging: Dataframe has been set to index
+2024-12-10 12:58:15,527 [INFO] src.utils.load_logging: Dataframe has been cleaned
+2024-12-10 12:58:15,531 [INFO] src.utils.load_logging: Dataframe has been set to index
+2024-12-10 12:58:15,534 [INFO] src.utils.load_logging: Dataframe has been cleaned
+2024-12-10 12:58:15,555 [INFO] src.utils.load_logging: Dataframe has been set to index
+2024-12-10 12:58:15,557 [INFO] src.utils.load_logging: Dataframe has been cleaned
+2024-12-10 12:58:15,587 [INFO] src.utils.load_logging: Dataframe has been set to index
+2024-12-10 12:58:15,587 [INFO] src.utils.load_logging: Dataframe has been cleaned
+2024-12-10 12:58:44,039 [INFO] src.utils.load_logging: Dataframe has been set to index
+2024-12-10 12:58:44,044 [INFO] src.utils.load_logging: Dataframe has been cleaned
+2024-12-10 12:58:44,059 [INFO] src.utils.load_logging: Dataframe has been set to index
+2024-12-10 12:58:44,062 [INFO] src.utils.load_logging: Dataframe has been cleaned
+2024-12-10 12:58:44,079 [INFO] src.utils.load_logging: Dataframe has been set to index
+2024-12-10 12:58:44,079 [INFO] src.utils.load_logging: Dataframe has been cleaned
+2024-12-10 12:58:44,082 [INFO] src.utils.load_logging: Dataframe has been set to index
+2024-12-10 12:58:44,083 [INFO] src.utils.load_logging: Dataframe has been cleaned
+2024-12-10 12:58:44,085 [INFO] src.utils.load_logging: Dataframe has been set to index
+2024-12-10 12:58:44,085 [INFO] src.utils.load_logging: Dataframe has been cleaned
+2024-12-10 12:59:23,896 [INFO] src.utils.load_logging: Dataframe has been set to index
+2024-12-10 12:59:23,899 [INFO] src.utils.load_logging: Dataframe has been cleaned
+2024-12-10 12:59:23,919 [INFO] src.utils.load_logging: Dataframe has been set to index
+2024-12-10 12:59:23,924 [INFO] src.utils.load_logging: Dataframe has been cleaned
+2024-12-10 12:59:23,932 [INFO] src.utils.load_logging: Dataframe has been set to index
+2024-12-10 12:59:23,932 [INFO] src.utils.load_logging: Dataframe has been cleaned
+2024-12-10 12:59:23,936 [INFO] src.utils.load_logging: Dataframe has been set to index
+2024-12-10 12:59:23,936 [INFO] src.utils.load_logging: Dataframe has been cleaned
+2024-12-10 12:59:23,939 [INFO] src.utils.load_logging: Dataframe has been set to index
+2024-12-10 12:59:23,939 [INFO] src.utils.load_logging: Dataframe has been cleaned
+2024-12-10 13:08:26,321 [INFO] src.utils.load_logging: Retrieving financial statements for NVDA...
+2024-12-10 13:08:27,864 [INFO] src.utils.load_logging: All financial statements for NVDA saved to /data/raw/NVDA_financial_statements.json
+2024-12-10 13:18:42,426 [INFO] src.utils.load_logging: Dataframe has been set to index
+2024-12-10 13:18:42,427 [INFO] src.utils.load_logging: Dataframe has been cleaned
+2024-12-10 13:18:59,422 [INFO] src.utils.load_logging: Dataframe has been set to index
+2024-12-10 13:18:59,422 [INFO] src.utils.load_logging: Dataframe has been cleaned
+2024-12-10 13:21:10,613 [INFO] src.utils.load_logging: Dataframe has been set to index
+2024-12-10 13:21:10,613 [INFO] src.utils.load_logging: Dataframe has been cleaned
+2024-12-10 13:24:05,545 [INFO] src.utils.load_logging: Dataframe has been set to index
+2024-12-10 13:24:05,545 [INFO] src.utils.load_logging: Dataframe has been cleaned
+2024-12-10 13:24:21,889 [INFO] src.utils.load_logging: Dataframe has been set to index
+2024-12-10 13:24:21,889 [INFO] src.utils.load_logging: Dataframe has been cleaned
+2024-12-10 13:24:39,988 [WARNING] src.utils.load_logging: No 'Date' column found in the DataFrame. Growth metrics could not be calculated.
+2024-12-10 13:24:39,989 [INFO] src.utils.load_logging: Dataframe has been set to index and metrics have been calculated.
+2024-12-10 13:24:39,990 [INFO] src.utils.load_logging: Dataframe has been cleaned and prepared successfully.
+2024-12-10 13:26:25,888 [WARNING] src.utils.load_logging: No 'Date' column found in the DataFrame. Growth metrics could not be calculated.
+2024-12-10 13:26:25,889 [INFO] src.utils.load_logging: Dataframe has been set to index and metrics have been calculated.
+2024-12-10 13:26:25,889 [INFO] src.utils.load_logging: Dataframe has been cleaned and prepared successfully.
+2024-12-10 13:26:33,781 [WARNING] src.utils.load_logging: No 'Date' column found in the DataFrame. Growth metrics could not be calculated.
+2024-12-10 13:26:33,782 [INFO] src.utils.load_logging: Dataframe has been set to index and metrics have been calculated.
+2024-12-10 13:26:33,783 [INFO] src.utils.load_logging: Dataframe has been cleaned and prepared successfully.
+2024-12-10 13:27:16,636 [WARNING] src.utils.load_logging: No 'Date' column found in the DataFrame. Growth metrics could not be calculated.
+2024-12-10 13:27:16,636 [INFO] src.utils.load_logging: Dataframe has been set to index and metrics have been calculated.
+2024-12-10 13:27:16,637 [INFO] src.utils.load_logging: Dataframe has been cleaned and prepared successfully.
+2024-12-10 13:27:16,663 [INFO] src.utils.load_logging: Market metrics calculated successfully.
+2024-12-10 13:34:08,490 [INFO] src.utils.load_logging: Market metrics calculated successfully.
+2024-12-10 13:45:10,182 [INFO] src.utils.load_logging: Retrieving news sentiment data for AAPL...
+2024-12-10 13:45:10,183 [INFO] src.utils.load_logging: News sentiment data directory: data/news
+2024-12-10 13:45:10,650 [INFO] src.utils.load_logging: News sentiment data for AAPL saved to data/news/AAPL_news_sentiment.json.
+2024-12-10 13:45:10,651 [INFO] src.utils.load_logging: News sentiment data for AAPL successfully retrieved and processed.
+2024-12-10 13:45:36,688 [INFO] src.utils.load_logging: Retrieving news sentiment data for AAPL...
+2024-12-10 13:45:36,689 [INFO] src.utils.load_logging: News sentiment data directory: Tech-Sector-Deep-Dive/data/news
+2024-12-10 13:45:37,104 [INFO] src.utils.load_logging: News sentiment data for AAPL saved to Tech-Sector-Deep-Dive/data/news/AAPL_news_sentiment.json.
+2024-12-10 13:45:37,105 [INFO] src.utils.load_logging: News sentiment data for AAPL successfully retrieved and processed.
+2024-12-10 13:46:09,638 [INFO] src.utils.load_logging: Retrieving news sentiment data for AAPL...
+2024-12-10 13:46:09,639 [INFO] src.utils.load_logging: News sentiment data directory: data/news
+2024-12-10 13:46:10,063 [INFO] src.utils.load_logging: News sentiment data for AAPL saved to data/news/AAPL_news_sentiment.json.
+2024-12-10 13:46:10,064 [INFO] src.utils.load_logging: News sentiment data for AAPL successfully retrieved and processed.
+2024-12-10 13:46:41,057 [INFO] src.utils.load_logging: Retrieving news sentiment data for AAPL...
+2024-12-10 13:46:41,058 [INFO] src.utils.load_logging: News sentiment data directory: /Users/benpfeffer/Library/Mobile Documents/com~apple~CloudDocs/Cloud_Code/Projects-Porfolio/Tech-Sector-Deep-Dive/data/news
+2024-12-10 13:46:41,623 [INFO] src.utils.load_logging: News sentiment data for AAPL saved to /Users/benpfeffer/Library/Mobile Documents/com~apple~CloudDocs/Cloud_Code/Projects-Porfolio/Tech-Sector-Deep-Dive/data/news/AAPL_news_sentiment.json.
+2024-12-10 13:46:41,624 [INFO] src.utils.load_logging: News sentiment data for AAPL successfully retrieved and processed.
+2024-12-10 13:46:54,956 [INFO] src.utils.load_logging: Retrieving news sentiment data for MSFT...
+2024-12-10 13:46:54,957 [INFO] src.utils.load_logging: News sentiment data directory: /Users/benpfeffer/Library/Mobile Documents/com~apple~CloudDocs/Cloud_Code/Projects-Porfolio/Tech-Sector-Deep-Dive/data/news
+2024-12-10 13:46:55,521 [INFO] src.utils.load_logging: News sentiment data for MSFT saved to /Users/benpfeffer/Library/Mobile Documents/com~apple~CloudDocs/Cloud_Code/Projects-Porfolio/Tech-Sector-Deep-Dive/data/news/MSFT_news_sentiment.json.
+2024-12-10 13:46:55,522 [INFO] src.utils.load_logging: News sentiment data for MSFT successfully retrieved and processed.
+2024-12-10 13:46:59,605 [INFO] src.utils.load_logging: Retrieving news sentiment data for NVDA...
+2024-12-10 13:46:59,606 [INFO] src.utils.load_logging: News sentiment data directory: /Users/benpfeffer/Library/Mobile Documents/com~apple~CloudDocs/Cloud_Code/Projects-Porfolio/Tech-Sector-Deep-Dive/data/news
+2024-12-10 13:47:00,028 [INFO] src.utils.load_logging: News sentiment data for NVDA saved to /Users/benpfeffer/Library/Mobile Documents/com~apple~CloudDocs/Cloud_Code/Projects-Porfolio/Tech-Sector-Deep-Dive/data/news/NVDA_news_sentiment.json.
+2024-12-10 13:47:00,029 [INFO] src.utils.load_logging: News sentiment data for NVDA successfully retrieved and processed.
+2024-12-10 13:47:08,444 [INFO] src.utils.load_logging: Retrieving news sentiment data for GOOGL...
+2024-12-10 13:47:08,445 [INFO] src.utils.load_logging: News sentiment data directory: /Users/benpfeffer/Library/Mobile Documents/com~apple~CloudDocs/Cloud_Code/Projects-Porfolio/Tech-Sector-Deep-Dive/data/news
+2024-12-10 13:47:08,629 [INFO] src.utils.load_logging: News sentiment data for GOOGL saved to /Users/benpfeffer/Library/Mobile Documents/com~apple~CloudDocs/Cloud_Code/Projects-Porfolio/Tech-Sector-Deep-Dive/data/news/GOOGL_news_sentiment.json.
+2024-12-10 13:47:08,630 [WARNING] src.utils.load_logging: No news articles found in 'feed' for GOOGL. Returning empty DataFrame.
+2024-12-10 13:50:23,121 [INFO] src.utils.load_logging: Retrieving news sentiment data for GOOGL...
+2024-12-10 13:50:23,122 [INFO] src.utils.load_logging: News sentiment data directory: /Users/benpfeffer/Library/Mobile Documents/com~apple~CloudDocs/Cloud_Code/Projects-Porfolio/Tech-Sector-Deep-Dive/data/news
+2024-12-10 13:50:23,338 [INFO] src.utils.load_logging: News sentiment data for GOOGL saved to /Users/benpfeffer/Library/Mobile Documents/com~apple~CloudDocs/Cloud_Code/Projects-Porfolio/Tech-Sector-Deep-Dive/data/news/GOOGL_news_sentiment.json.
+2024-12-10 13:50:23,338 [WARNING] src.utils.load_logging: No news articles found in 'feed' for GOOGL. Returning empty DataFrame.
+2024-12-10 13:50:23,339 [INFO] src.utils.load_logging: Retrieving news sentiment data for AAPL...
+2024-12-10 13:50:23,339 [INFO] src.utils.load_logging: News sentiment data directory: /Users/benpfeffer/Library/Mobile Documents/com~apple~CloudDocs/Cloud_Code/Projects-Porfolio/Tech-Sector-Deep-Dive/data/news
+2024-12-10 13:50:23,742 [INFO] src.utils.load_logging: News sentiment data for AAPL saved to /Users/benpfeffer/Library/Mobile Documents/com~apple~CloudDocs/Cloud_Code/Projects-Porfolio/Tech-Sector-Deep-Dive/data/news/AAPL_news_sentiment.json.
+2024-12-10 13:50:23,747 [INFO] src.utils.load_logging: News sentiment DataFrame for AAPL saved to /Users/benpfeffer/Library/Mobile Documents/com~apple~CloudDocs/Cloud_Code/Projects-Porfolio/Tech-Sector-Deep-Dive/data/news/AAPL_news_sentiment.csv.
+2024-12-10 13:50:23,747 [INFO] src.utils.load_logging: News sentiment data for AAPL successfully retrieved and processed.
+2024-12-10 13:50:23,748 [INFO] src.utils.load_logging: Retrieving news sentiment data for AMZN...
+2024-12-10 13:50:23,748 [INFO] src.utils.load_logging: News sentiment data directory: /Users/benpfeffer/Library/Mobile Documents/com~apple~CloudDocs/Cloud_Code/Projects-Porfolio/Tech-Sector-Deep-Dive/data/news
+2024-12-10 13:50:24,188 [INFO] src.utils.load_logging: News sentiment data for AMZN saved to /Users/benpfeffer/Library/Mobile Documents/com~apple~CloudDocs/Cloud_Code/Projects-Porfolio/Tech-Sector-Deep-Dive/data/news/AMZN_news_sentiment.json.
+2024-12-10 13:50:24,190 [INFO] src.utils.load_logging: News sentiment DataFrame for AMZN saved to /Users/benpfeffer/Library/Mobile Documents/com~apple~CloudDocs/Cloud_Code/Projects-Porfolio/Tech-Sector-Deep-Dive/data/news/AMZN_news_sentiment.csv.
+2024-12-10 13:50:24,190 [INFO] src.utils.load_logging: News sentiment data for AMZN successfully retrieved and processed.
+2024-12-10 13:50:24,190 [INFO] src.utils.load_logging: Retrieving news sentiment data for NVDA...
+2024-12-10 13:50:24,191 [INFO] src.utils.load_logging: News sentiment data directory: /Users/benpfeffer/Library/Mobile Documents/com~apple~CloudDocs/Cloud_Code/Projects-Porfolio/Tech-Sector-Deep-Dive/data/news
+2024-12-10 13:50:24,367 [INFO] src.utils.load_logging: News sentiment data for NVDA saved to /Users/benpfeffer/Library/Mobile Documents/com~apple~CloudDocs/Cloud_Code/Projects-Porfolio/Tech-Sector-Deep-Dive/data/news/NVDA_news_sentiment.json.
+2024-12-10 13:50:24,369 [INFO] src.utils.load_logging: News sentiment DataFrame for NVDA saved to /Users/benpfeffer/Library/Mobile Documents/com~apple~CloudDocs/Cloud_Code/Projects-Porfolio/Tech-Sector-Deep-Dive/data/news/NVDA_news_sentiment.csv.
+2024-12-10 13:50:24,369 [INFO] src.utils.load_logging: News sentiment data for NVDA successfully retrieved and processed.
+2024-12-10 13:50:24,370 [INFO] src.utils.load_logging: Retrieving news sentiment data for MSFT...
+2024-12-10 13:50:24,370 [INFO] src.utils.load_logging: News sentiment data directory: /Users/benpfeffer/Library/Mobile Documents/com~apple~CloudDocs/Cloud_Code/Projects-Porfolio/Tech-Sector-Deep-Dive/data/news
+2024-12-10 13:50:24,934 [INFO] src.utils.load_logging: News sentiment data for MSFT saved to /Users/benpfeffer/Library/Mobile Documents/com~apple~CloudDocs/Cloud_Code/Projects-Porfolio/Tech-Sector-Deep-Dive/data/news/MSFT_news_sentiment.json.
+2024-12-10 13:50:24,937 [INFO] src.utils.load_logging: News sentiment DataFrame for MSFT saved to /Users/benpfeffer/Library/Mobile Documents/com~apple~CloudDocs/Cloud_Code/Projects-Porfolio/Tech-Sector-Deep-Dive/data/news/MSFT_news_sentiment.csv.
+2024-12-10 13:50:24,937 [INFO] src.utils.load_logging: News sentiment data for MSFT successfully retrieved and processed.
+2024-12-10 15:04:19,029 [WARNING] src.utils.load_logging: No 'Date' column found in the DataFrame. Growth metrics could not be calculated.
+2024-12-10 15:04:19,029 [INFO] src.utils.load_logging: Dataframe has been set to index and metrics have been calculated.
+2024-12-10 15:04:19,032 [INFO] src.utils.load_logging: Dataframe has been cleaned and prepared successfully.
+2024-12-10 15:05:09,992 [WARNING] src.utils.load_logging: No 'Date' column found in the DataFrame. Growth metrics could not be calculated.
+2024-12-10 15:05:09,993 [INFO] src.utils.load_logging: Dataframe has been set to index and metrics have been calculated.
+2024-12-10 15:05:09,994 [INFO] src.utils.load_logging: Dataframe has been cleaned and prepared successfully.
+2024-12-10 15:11:03,408 [INFO] src.utils.load_logging: Retrieving historical data for AAPL...
+2024-12-10 15:11:03,903 [INFO] src.utils.load_logging: Historical data for AAPL saved to /data/raw/AAPL_historical_data.csv
+2024-12-10 15:11:11,886 [INFO] src.utils.load_logging: Retrieving historical data for AAPL...
+2024-12-10 15:11:12,545 [INFO] src.utils.load_logging: Historical data for AAPL saved to /data/raw/AAPL_historical_data.csv
+2024-12-10 15:12:27,680 [WARNING] src.utils.load_logging: No 'Date' column found in the DataFrame. Growth metrics could not be calculated.
+2024-12-10 15:12:27,681 [INFO] src.utils.load_logging: Dataframe has been set to index and metrics have been calculated.
+2024-12-10 15:12:27,682 [INFO] src.utils.load_logging: Dataframe has been cleaned and prepared successfully.
+2024-12-10 15:13:23,408 [ERROR] src.utils.load_logging: Missing expected column in DataFrame: 'grossProfit'
+2024-12-10 15:13:23,409 [ERROR] src.utils.load_logging: Required column missing in DataFrame: 'grossProfit'
+2024-12-10 15:13:33,006 [ERROR] src.utils.load_logging: Missing expected column in DataFrame: 'grossProfit'
+2024-12-10 15:13:33,007 [ERROR] src.utils.load_logging: Required column missing in DataFrame: 'grossProfit'
+2024-12-10 15:16:33,592 [INFO] src.utils.load_logging: Market metrics calculated successfully.
+2024-12-10 15:17:32,062 [INFO] src.utils.load_logging: Market metrics calculated successfully.
+2024-12-10 15:20:44,939 [INFO] src.utils.load_logging: Market metrics calculated successfully.
+2024-12-10 15:20:47,975 [INFO] src.utils.load_logging: Market metrics calculated successfully.
+2024-12-10 15:20:55,141 [INFO] src.utils.load_logging: Market metrics calculated successfully.
+2024-12-10 15:21:17,815 [INFO] src.utils.load_logging: Market metrics calculated successfully.
+2024-12-10 15:21:17,819 [WARNING] src.utils.load_logging: No 'Date' column found in the DataFrame. Growth metrics could not be calculated.
+2024-12-10 15:21:17,819 [INFO] src.utils.load_logging: Dataframe has been set to index and metrics have been calculated.
+2024-12-10 15:21:17,820 [INFO] src.utils.load_logging: Dataframe has been cleaned and prepared successfully.
+2024-12-10 15:22:02,598 [INFO] src.utils.load_logging: Market metrics calculated successfully.
+2024-12-10 15:22:02,601 [WARNING] src.utils.load_logging: No 'Date' column found in the DataFrame. Growth metrics could not be calculated.
+2024-12-10 15:22:02,601 [INFO] src.utils.load_logging: Dataframe has been set to index and metrics have been calculated.
+2024-12-10 15:22:02,602 [INFO] src.utils.load_logging: Dataframe has been cleaned and prepared successfully.
+2024-12-10 15:22:20,791 [INFO] src.utils.load_logging: Market metrics calculated successfully.
+2024-12-10 15:22:20,793 [WARNING] src.utils.load_logging: No 'Date' column found in the DataFrame. Growth metrics could not be calculated.
+2024-12-10 15:22:20,793 [INFO] src.utils.load_logging: Dataframe has been set to index and metrics have been calculated.
+2024-12-10 15:22:20,795 [INFO] src.utils.load_logging: Dataframe has been cleaned and prepared successfully.
+2024-12-10 15:22:37,865 [INFO] src.utils.load_logging: Market metrics calculated successfully.
+2024-12-10 15:22:37,869 [WARNING] src.utils.load_logging: No 'Date' column found in the DataFrame. Growth metrics could not be calculated.
+2024-12-10 15:22:37,870 [INFO] src.utils.load_logging: Dataframe has been set to index and metrics have been calculated.
+2024-12-10 15:22:37,871 [INFO] src.utils.load_logging: Dataframe has been cleaned and prepared successfully.
+2024-12-10 16:17:46,715 [INFO] src.utils.load_logging: Market metrics calculated successfully.
+2024-12-10 16:17:46,717 [ERROR] src.utils.load_logging: Missing expected column in DataFrame: 'grossProfit'
+2024-12-10 16:17:46,717 [ERROR] src.utils.load_logging: Required column missing in DataFrame: 'grossProfit'
+2024-12-10 16:17:51,639 [INFO] src.utils.load_logging: Market metrics calculated successfully.
+2024-12-10 16:17:51,639 [ERROR] src.utils.load_logging: Missing expected column in DataFrame: 'grossProfit'
+2024-12-10 16:17:51,640 [ERROR] src.utils.load_logging: Required column missing in DataFrame: 'grossProfit'
+2024-12-10 16:19:52,735 [INFO] src.utils.load_logging: Market metrics calculated successfully.
+2024-12-10 16:19:52,735 [ERROR] src.utils.load_logging: Missing expected column in DataFrame: 'grossProfit'
+2024-12-10 16:19:52,736 [ERROR] src.utils.load_logging: Required column missing in DataFrame: 'grossProfit'
+2024-12-10 16:20:49,535 [INFO] src.utils.load_logging: Market metrics calculated successfully.
+2024-12-10 16:20:49,540 [ERROR] src.utils.load_logging: Missing expected column in DataFrame: 'grossProfit'
+2024-12-10 16:20:49,542 [ERROR] src.utils.load_logging: Required column missing in DataFrame: 'grossProfit'
+2024-12-10 16:21:41,786 [INFO] src.utils.load_logging: Market metrics calculated successfully.
+2024-12-10 16:21:41,787 [ERROR] src.utils.load_logging: Missing expected column in DataFrame: 'grossProfit'
+2024-12-10 16:21:41,787 [ERROR] src.utils.load_logging: Required column missing in DataFrame: 'grossProfit'
+2024-12-10 16:21:45,243 [INFO] src.utils.load_logging: Market metrics calculated successfully.
+2024-12-10 16:21:45,244 [ERROR] src.utils.load_logging: Missing expected column in DataFrame: 'grossProfit'
+2024-12-10 16:21:45,244 [ERROR] src.utils.load_logging: Required column missing in DataFrame: 'grossProfit'
+2024-12-10 16:21:50,140 [INFO] src.utils.load_logging: Market metrics calculated successfully.
+2024-12-10 16:21:50,142 [ERROR] src.utils.load_logging: Missing expected column in DataFrame: 'grossProfit'
+2024-12-10 16:21:50,142 [ERROR] src.utils.load_logging: Required column missing in DataFrame: 'grossProfit'
+2024-12-10 16:21:58,444 [INFO] src.utils.load_logging: Market metrics calculated successfully.
+2024-12-10 16:21:58,445 [WARNING] src.utils.load_logging: No 'Date' column found in the DataFrame. Growth metrics could not be calculated.
+2024-12-10 16:21:58,446 [INFO] src.utils.load_logging: Dataframe has been set to index and metrics have been calculated.
+2024-12-10 16:21:58,447 [INFO] src.utils.load_logging: Dataframe has been cleaned and prepared successfully.
+2024-12-10 16:21:58,463 [INFO] src.utils.load_logging: Market metrics calculated successfully.
+2024-12-10 16:21:58,465 [WARNING] src.utils.load_logging: No 'Date' column found in the DataFrame. Growth metrics could not be calculated.
+2024-12-10 16:21:58,465 [INFO] src.utils.load_logging: Dataframe has been set to index and metrics have been calculated.
+2024-12-10 16:21:58,467 [INFO] src.utils.load_logging: Dataframe has been cleaned and prepared successfully.
+2024-12-10 16:21:58,481 [INFO] src.utils.load_logging: Market metrics calculated successfully.
+2024-12-10 16:21:58,483 [WARNING] src.utils.load_logging: No 'Date' column found in the DataFrame. Growth metrics could not be calculated.
+2024-12-10 16:21:58,483 [INFO] src.utils.load_logging: Dataframe has been set to index and metrics have been calculated.
+2024-12-10 16:21:58,485 [INFO] src.utils.load_logging: Dataframe has been cleaned and prepared successfully.
+2024-12-10 16:21:58,499 [INFO] src.utils.load_logging: Market metrics calculated successfully.
+2024-12-10 16:21:58,500 [WARNING] src.utils.load_logging: No 'Date' column found in the DataFrame. Growth metrics could not be calculated.
+2024-12-10 16:21:58,501 [INFO] src.utils.load_logging: Dataframe has been set to index and metrics have been calculated.
+2024-12-10 16:21:58,502 [INFO] src.utils.load_logging: Dataframe has been cleaned and prepared successfully.
+2024-12-10 16:24:03,824 [INFO] src.utils.load_logging: Market metrics calculated successfully.
+2024-12-10 16:24:03,826 [ERROR] src.utils.load_logging: Missing expected column in DataFrame: 'grossProfit'
+2024-12-10 16:24:03,826 [ERROR] src.utils.load_logging: Required column missing in DataFrame: 'grossProfit'
+2024-12-10 16:24:05,988 [INFO] src.utils.load_logging: Market metrics calculated successfully.
+2024-12-10 16:24:05,989 [ERROR] src.utils.load_logging: Missing expected column in DataFrame: 'grossProfit'
+2024-12-10 16:24:05,989 [ERROR] src.utils.load_logging: Required column missing in DataFrame: 'grossProfit'
+2024-12-10 16:24:11,000 [INFO] src.utils.load_logging: Market metrics calculated successfully.
+2024-12-10 16:24:11,002 [ERROR] src.utils.load_logging: Missing expected column in DataFrame: 'grossProfit'
+2024-12-10 16:24:11,002 [ERROR] src.utils.load_logging: Required column missing in DataFrame: 'grossProfit'
+2024-12-10 16:24:16,251 [INFO] src.utils.load_logging: Market metrics calculated successfully.
+2024-12-10 16:24:16,252 [WARNING] src.utils.load_logging: No 'Date' column found in the DataFrame. Growth metrics could not be calculated.
+2024-12-10 16:24:16,253 [INFO] src.utils.load_logging: Dataframe has been set to index and metrics have been calculated.
+2024-12-10 16:24:16,254 [INFO] src.utils.load_logging: Dataframe has been cleaned and prepared successfully.
+2024-12-10 16:24:16,267 [INFO] src.utils.load_logging: Market metrics calculated successfully.
+2024-12-10 16:24:16,269 [WARNING] src.utils.load_logging: No 'Date' column found in the DataFrame. Growth metrics could not be calculated.
+2024-12-10 16:24:16,269 [INFO] src.utils.load_logging: Dataframe has been set to index and metrics have been calculated.
+2024-12-10 16:24:16,271 [INFO] src.utils.load_logging: Dataframe has been cleaned and prepared successfully.
+2024-12-10 16:24:16,284 [INFO] src.utils.load_logging: Market metrics calculated successfully.
+2024-12-10 16:24:16,285 [WARNING] src.utils.load_logging: No 'Date' column found in the DataFrame. Growth metrics could not be calculated.
+2024-12-10 16:24:16,286 [INFO] src.utils.load_logging: Dataframe has been set to index and metrics have been calculated.
+2024-12-10 16:24:16,288 [INFO] src.utils.load_logging: Dataframe has been cleaned and prepared successfully.
+2024-12-10 16:24:16,303 [INFO] src.utils.load_logging: Market metrics calculated successfully.
+2024-12-10 16:24:16,303 [WARNING] src.utils.load_logging: No 'Date' column found in the DataFrame. Growth metrics could not be calculated.
+2024-12-10 16:24:16,304 [INFO] src.utils.load_logging: Dataframe has been set to index and metrics have been calculated.
+2024-12-10 16:24:16,305 [INFO] src.utils.load_logging: Dataframe has been cleaned and prepared successfully.
+2024-12-10 16:24:20,522 [INFO] src.utils.load_logging: Market metrics calculated successfully.
+2024-12-10 16:24:20,523 [ERROR] src.utils.load_logging: Missing expected column in DataFrame: 'grossProfit'
+2024-12-10 16:24:20,523 [ERROR] src.utils.load_logging: Required column missing in DataFrame: 'grossProfit'
+2024-12-10 16:24:30,789 [INFO] src.utils.load_logging: Market metrics calculated successfully.
+2024-12-10 16:25:04,084 [INFO] src.utils.load_logging: Market metrics calculated successfully.
+2024-12-10 16:25:04,085 [ERROR] src.utils.load_logging: Missing expected column in DataFrame: 'grossProfit'
+2024-12-10 16:25:04,086 [ERROR] src.utils.load_logging: Required column missing in DataFrame: 'grossProfit'
+2024-12-10 16:25:15,946 [INFO] src.utils.load_logging: Market metrics calculated successfully.
+2024-12-10 16:25:15,949 [ERROR] src.utils.load_logging: Missing expected column in DataFrame: 'grossProfit'
+2024-12-10 16:25:15,949 [ERROR] src.utils.load_logging: Required column missing in DataFrame: 'grossProfit'
+2024-12-10 16:26:29,189 [INFO] src.utils.load_logging: Loading data...
+2024-12-10 16:26:40,008 [INFO] src.utils.load_logging: Market metrics calculated successfully.
+2024-12-10 16:26:40,009 [ERROR] src.utils.load_logging: Missing expected column in DataFrame: 'grossProfit'
+2024-12-10 16:26:40,009 [ERROR] src.utils.load_logging: Required column missing in DataFrame: 'grossProfit'
+2024-12-10 16:26:45,111 [INFO] src.utils.load_logging: Market metrics calculated successfully.
+2024-12-10 16:26:45,112 [ERROR] src.utils.load_logging: Missing expected column in DataFrame: 'grossProfit'
+2024-12-10 16:26:45,112 [ERROR] src.utils.load_logging: Required column missing in DataFrame: 'grossProfit'
+2024-12-10 16:26:49,054 [INFO] src.utils.load_logging: Market metrics calculated successfully.
+2024-12-10 16:26:49,055 [ERROR] src.utils.load_logging: Missing expected column in DataFrame: 'grossProfit'
+2024-12-10 16:26:49,056 [ERROR] src.utils.load_logging: Required column missing in DataFrame: 'grossProfit'
